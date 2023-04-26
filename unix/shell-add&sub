@@ -1,0 +1,7 @@
+echo "Enter first number"
+read F
+echo "Enter second number"
+read S
+add=$(($F+$S))
+sub=$(($F-$S))
+echo "Addition is $add and subtraction is $sub"
