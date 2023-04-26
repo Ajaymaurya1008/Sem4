@@ -1,0 +1,8 @@
+echo "Enter length"
+read L
+echo "enter breadth"
+read B
+area=$(($L * $B))
+peri=$((2*($L + $B)))
+echo "area is: $area"
+echo "peri is:$peri"
