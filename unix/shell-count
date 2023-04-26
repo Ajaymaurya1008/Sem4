@@ -1,0 +1,6 @@
+echo "Number or lines"
+wc -l test.txt
+echo "numer of characters"
+wc -c test.txt
+echo "number of words"
+wc -w test.txt
